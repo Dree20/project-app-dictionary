@@ -7,6 +7,7 @@ export default function Meaning(props) {
       <h3 className="fs-4">
         <em>{props.meaning.partOfSpeech}</em>
       </h3>
+
       <p>Definition: {props.meaning.definition}</p>
       <p>
         <strong>{props.meaning.example}</strong>
