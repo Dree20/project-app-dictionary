@@ -1,0 +1,13 @@
+.Meaning h3 {
+  font-style: italic;
+}
+
+.Meaning .Definition {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.Meaning .Example {
+  font-style: italic;
+  opacity: 0.7;
+}
