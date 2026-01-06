@@ -13,10 +13,8 @@ export default function Meaning(props) {
         {props.meaning.definition}{" "}
       </div>
 
-      <div className="Example">
-        {props.meaning.example}
-        <Synonyms synonyms={props.meaning.synonyms} />
-      </div>
+      <div className="Example">{props.meaning.example}</div>
+      <Synonyms synonyms={props.meaning.synonyms} />
     </div>
   );
 }

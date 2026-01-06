@@ -47,7 +47,7 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
-          <h1>Have fun word searching</h1>
+          <h2 className="Look">Search for any word 🔍</h2>
           <form onSubmit={handleSubmit}>
             <input
               type="search"
@@ -55,7 +55,10 @@ export default function Dictionary(props) {
               defaultValue={props.defaultKeyword}
             />
           </form>
-          <div className="hint">suggested words: dance, fun, sing, joke...</div>
+          <div className="hint">
+            <span className="hint-1">suggested words:</span> dance, fun, sing,
+            joke...
+          </div>
         </section>
         <Results results={results} />
         <Photos photos={photos} />
