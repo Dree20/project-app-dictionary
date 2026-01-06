@@ -1,5 +1,7 @@
 body {
   background-color: #f5f4e8;
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 .App-header {
